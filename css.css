@@ -79,15 +79,13 @@ a:visited{
 	margin: 1em;
 }
 
-.sscherryblossom, .sseevee, .ssyugioh, .superhero{
+.sscherryblossom, .sseevee, .ssyugioh{
 	display: none;
 	width: 50%;
 	height: 50%;
 
 }
 
-.ssyugioh{
-}
 
 .image{
 	width: 30%;
@@ -152,8 +150,6 @@ footer{
 }
 
 
-
-
 @media (max-width: 700px){
 	nav{
 		font-size: 12pt;
@@ -162,4 +158,18 @@ footer{
 	p{
 		max-width: 200px;
 	}
+	footer{
+		font-size: 10pt;
+	}
+	.leftbanner{
+		background-repeat: repeat-y;
+	}
+	.rightbanner{
+		background-repeat: repeat-y;
+	}
+	footer{
+		margin-right: 4.5em;
+	}
+
+
 }
