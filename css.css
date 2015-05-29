@@ -1,0 +1,107 @@
+body{
+	background-image: url("images/background.jpg");
+	font-family: fantasy;
+}
+nav{
+	font-size: 20pt;
+	width: 70%;
+	margin: auto;
+	background-color: #B2240E;
+	height: 1.5em;
+	text-align: center;
+}
+a:link{
+	text-decoration: none;
+	color: black;
+	margin: 1em;
+	position: relative;
+	top: 15%;
+}
+a:hover{
+	text-decoration: underline overline;
+	color: white;
+}
+a:visited{
+	color: black;
+}
+.square {
+	width: 10px;
+	height: 10px;
+	background: black;
+	display: inline-block;
+	position: relative;
+	top: 5%;
+}
+.leftbanner{
+	background-color: white;
+	width: 15%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-image: url("images/banner.gif");
+    background-size: cover;
+}
+.rightbanner{
+ 	background-color: black;
+	width: 15%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	background-image: url("images/pokemon.gif");    
+    background-size: cover;
+
+}
+.topbanner{
+	width: 70%;
+	margin: auto;
+	height: 6em;
+	background-image: url("images/eevee.jpg");
+    background-repeat: repeat-x;
+    background-size: 10em;
+}
+.content{
+	 margin: 0 auto;
+	 padding: 1em;
+	 width: 68%;
+}
+
+.project{
+	width: 30%;
+	height:30%;
+	float: left;
+	margin: 1em;
+}
+.image{
+	width: 25%;
+	height: 25%;
+	border: white outset 1px;
+}
+p{
+	font-family: 'Niconne', cursive;
+	color: white;
+}
+.byscript{
+	float: left;
+	margin-left: 1em;
+}
+
+footer{
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	margin-left: -34%;
+	bottom: 0;
+	font-family: 'Niconne', cursive;
+	color: white;
+}
+
+
+
+
+@media (max-width: 700px){
+	nav{
+		font-size: 12pt;
+	}
+}
