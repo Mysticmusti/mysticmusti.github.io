@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/background.jpg");
+	background-color: #404040;
 	font-family: fantasy;
 }
 nav{
@@ -33,24 +33,24 @@ a:visited{
 	top: 5%;
 }
 .leftbanner{
-	background-color: white;
 	width: 15%;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	bottom: 0px;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	float: left;
 	background-image: url("images/banner.gif");
-    background-size: cover;
+	background-repeat: no-repeat;
+    background-size: contain;
 }
 .rightbanner{
- 	background-color: black;
 	width: 15%;
-	position: absolute;
+	height: 100%;
+	position: fixed;
 	right: 0px;
-	bottom: 0px;
 	top: 0px;
-	background-image: url("images/pokemon.gif");    
-    background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("images/banner.gif");    
+    background-size: contain;
 
 }
 .topbanner{
@@ -63,8 +63,13 @@ a:visited{
 }
 .content{
 	 margin: 0 auto;
-	 padding: 1em;
-	 width: 68%;
+	 width: 70%;
+	 margin-top: 1em;
+}
+
+.slideshow{
+	margin: 0 auto;
+	margin-left: 1em;
 }
 
 .project{
@@ -73,14 +78,48 @@ a:visited{
 	float: left;
 	margin: 1em;
 }
+
+.sscherryblossom, .sseevee, .ssyugioh, .superhero{
+	display: none;
+	width: 50%;
+	height: 50%;
+
+}
+
+
 .image{
 	width: 25%;
 	height: 25%;
 	border: white outset 1px;
 }
+
+.thumbnails{
+	width: 70%;
+	margin: auto;
+}
+
+.eeveetn, .cherryblossomtn, .yugiohtn{
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+
+form{
+	margin-left: 1em;
+	margin-top: 5em;
+}
+
+.selected{
+	display: inline;
+}
 p{
-	font-family: 'Niconne', cursive;
+	font-family: 'times new roman';
 	color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+	max-width: 600px;
 }
 .byscript{
 	float: left;
@@ -103,5 +142,9 @@ footer{
 @media (max-width: 700px){
 	nav{
 		font-size: 12pt;
+	}
+
+	p{
+		max-width: 200px;
 	}
 }
