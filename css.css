@@ -86,11 +86,15 @@ a:visited{
 
 }
 
+.ssyugioh{
+}
 
 .image{
-	width: 25%;
-	height: 25%;
+	width: 30%;
+	height: 30%;
 	border: white outset 1px;
+	display: inline;
+	float: left;
 }
 
 .thumbnails{
@@ -114,12 +118,24 @@ form{
 .selected{
 	display: inline;
 }
-p{
+
+
+
+p, h1{
 	font-family: 'times new roman';
 	color: white;
-	margin-left: 1em;
 	margin-right: 1em;
-	max-width: 600px;
+	max-width: 500px;
+}
+
+h1{
+	font-size: 18pt;
+	margin-bottom: 1em;
+	margin-left: 35%;
+}
+
+.mainbody{
+	margin-left: 35%;
 }
 .byscript{
 	float: left;
@@ -129,8 +145,7 @@ p{
 footer{
 	position: absolute;
 	width: 70%;
-	left: 50%;
-	margin-left: -34%;
+	right: 0;
 	bottom: 0;
 	font-family: 'Niconne', cursive;
 	color: white;
